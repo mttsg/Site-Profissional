@@ -33,29 +33,13 @@
       max-width: 60%;
       border-radius: 50px;
     }
-     
-    
-
-
-
-    .BackgroundI {
-      background-color: rgb(93, 90, 95)
-    }
-
-    .backgroundimg {
-      background-image: url()
-    }
-
+   
     .BackgroundII {
       background-color: rgb(6, 29, 73);
     }
 
     .BackgroundIII {
       background-color: rgba(29, 36, 48, 0.63);
-    }
-
-    .corsecundaria {
-      background-color: rgb(2, 1, 19);
     }
 
     p {
@@ -144,7 +128,7 @@
     </div>
   </nav>
 
-  <section class="jumbotron text-center ">
+  <section class="jumbotron text-center foto.fundo">
     
     <div class="container foto-perfil ">
   
