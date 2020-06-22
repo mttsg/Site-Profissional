@@ -1,0 +1,117 @@
+
+ 
+ 
+  /* p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    
+  }
+*/
+  html {
+    scroll-behavior: smooth;
+
+  }
+
+  body {
+      display: block;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      margin: 0px;
+      
+    }
+
+    #navbarDropdown {
+        color: white;
+
+    }
+
+  .flag {
+      height:auto;
+      padding: 700px;
+  }  
+
+ .cortextoemail{
+    color:#00a152;
+  }
+ 
+  .jumbotron {
+    margin-bottom: 0px;
+  }
+
+  .textofooter {
+    margin: 8px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .textobranco {
+    color: white !important;
+
+  }
+
+  .textosublinhado {
+    text-decoration: underline;
+    text-underline-position: below;
+
+  }
+
+  .borda {
+    width: small;
+    border-style: dashed;
+    border-color: rgb(9, 10, 8);
+  }
+
+    .containerII{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 70px;
+    /*text-decoration: underline;
+    text-underline-position: below; */
+
+ }
+
+
+  /* Icones */
+  .iconeMail {
+    padding-left: 12px;
+    
+  }
+  .iconeLink-Git {
+    padding-left: 10px;
+    padding-top: 20px;
+  }
+
+
+
+/*Aqui temos a configuração do Nav-Bar */
+
+nav{
+    width: 100%;
+    height: 60px;
+    background-color:rgb(6, 29, 73);
+    padding: 30px;
+    margin: 0px;
+    
+    
+    
+}
+
+
+nav img{
+    height:30px;
+    width:auto;
+    max-width:60%;
+    border-radius:50px;
+    padding-right: 10px;
+}
+
+
+
+
+body section img{
+  height: 200px;
+  width: auto;
+  max-width: 60%;
+  border-radius: 50px;
+}
+
+
+
