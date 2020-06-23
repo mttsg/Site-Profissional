@@ -1,24 +1,77 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 
 <head>
-  <link rel="style" href="Portfolio/index.css">
-
-  <!-- Aqui foi feita a conexão do arquivo HTML com o CSS-->
-  <link rel="stylesheet" type="text/css" href="EstiloTeste.css">
-
-
+  
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="shortcut icon" type="image/png" href="Favicon8.png">
-  <!-- UTF-8 é usado porque usamos acentos nas palavras -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <script src="https://kit.fontawesome.com/f0e17cbf2f.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+</head>
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
+<body>
+  <nav class="navbar navbar-expand-lg  navbar-dark bg-secondary ">
+    <a class="navbar-brand" href="indexPt.html"> <img src="Logo.png" id="logoI"> Página Inicial</a>
+
+    <div class="collapse navbar-collapse d-flex flex-md-row flex-column bd-navbar" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="PgExperiência-Pt.html">Experiência <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="PgSobremim-Pt.html">Sobre mim</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="PgContato.html">Contato</a>
+        </li>
+      </ul>
+      <ul class=" navbar-nav ml-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false"> <img src="" id="logoII"> Traduzir Página
+
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown" id="navbarDropdownmenu">
+            <a class="dropdown-item " href="indexPt.html">Port-Br <img src="LogoBr.png" alt="Bandeira do Brasil" class="flag"></a>
+            <a class="dropdown-item " href="indexUs.html">Inglês <img src="LogoUs.png" alt="Bandeira do EUA" class="flag"></a>
+            <a class="dropdown-item " href="IndexFr.html">Francês <img src="LogoFr.png" alt="Bandeira da França" class="flag"></a>
+
+        </li>
+      </ul>
+      </ul>
+
+    </div>
+
+
+  </nav>
+
+
+
+  <div class="jumbotron text-center ">
+    <div class="container">
+      <img src="fotorosto.png" class="fotoperfil " alt="">
+      <h1 class="display-6"> Matteo Siqueira Galfano </h1>
+      <p class="lead">Engenheiro de Produção formado pelo IMT (Instituto Mauá de Tecnologia).</p>
+
+
+      <a href="mailto:matt.galfano@gmail.com"><i
+          class="iconemail   fas far fa-envelope   align-items-center align-center btn btn-outline-success animated bounce"></i></a>
+      <br><br>
+
+      <a href="https://www.linkedin.com/in/matteo-galfano-0aa909150/"><i
+          class="iconelinkedin fab fa-linkedin"></i></a>Linkedin
+      <a href="https://github.com/mttsg?tab=repositories"><i class="iconegit fab fa-github"></i></a> Github
+
+    </div>
+  </div>
+
+ 
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -26,191 +79,9 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
     integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
     crossorigin="anonymous"></script>
-
-  <!--<script src="https://use.fontawesome.com/b4390f222a.js"></script> -->
-  <script src="https://kit.fontawesome.com/f0e17cbf2f.js" crossorigin="anonymous"></script>
-
-
-</head>
-
-<body>
-
-  
-  <nav class="navbar navbar-expand-lg navbar-light ">
-    <img src="Logo.png" alt="">
-    <a class="navbar-brand textobranco" href="#">Página Inicial </a>
-
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-
-        <li class="nav-item">
-          <a  class="nav-link textobranco " href="#Experiência">Experiência</a><span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link textobranco " href="#Sobre-mim">Sobre mim</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link textobranco " href="#Contato">Contato</a>
-        </li>
-
-      </ul>
-
-      <li class="nav-item dropdown">
-        <a style="padding-bottom: 30px;"   class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" 
-          aria-haspopup="true" aria-expanded="false"> <img src="LogoMakr_6AJYFu.png" alt="foto"  style="padding-right: 5px;"   >    Traduzir Página</a>
-
-        <div class="dropdown-menu textobranco dropdown-item" aria-labelledby="navbarDropdown" >
-          <a class="dropdown-item flag" href="index.html">Port-Br <img src="LogoBr.png" alt=""></a>
-          <a style="word-spacing: 12px;" class="dropdown-item flag" href="index(inglês).html">Inglês <img src="LogoUs.png" alt=""></a>
-          <a  class="dropdown-item flag" href="index(francês).html">Francês <img src="LogoFr.png" alt=""></a>
-        </div>
-      </li>
-
-    </div>
-
-
-  </nav> 
-
-  <section class="jumbotron text-center ">
-
-    <div class="container">
-
-      <div class="container">
-
-        <img class="foto-perfil" src="fotorosto.png" alt="">
-
-        <h1 class="containerII">Matteo Galfano </h1>
-        <p  class="lead text-muted">Engenheiro de Produção formado pelo IMT (Instituto
-          Mauá de Tecnologia).</p>
-        <p>
-
-      </div>
-
-      <h6 class="cortextoemail">Enviar Email</h6>
-      <a href="mailto:matt.galfano@gmail.com"><i
-          class="iconeMail fas far fa-envelope   align-items-center align-center btn btn-outline-success"></i></a>
-      </p>
-
-      <a href="https://www.linkedin.com/in/matteo-galfano-0aa909150/"><i class="iconeLink-Git fab fa-linkedin"></i></a>
-      Linkedin
-
-      <a style="padding-bottom: 80px;" href="https://github.com/mttsg?tab=repositories"><i
-          class="iconeLink-Git fab fa-github"></i></a> Github
-      <!--<a href="https://www.linkedin.com/in/matteo-galfano-0aa909150/"><i class="icones fab fa-instagram"></i></a> Linkedin -->
-
-
-    </div>
-
-  </section>
-
-
-  <div class="album py-5 ">
-    <div class="container">
-      <h2 class="jumbotron-heading text-center">Experiência</h2>
-      <div style="padding-top: 20px; " class="row" id="Experiência">
-        <div class="col-md-12">
-          <div class="card mb-4 box-shadow">
-            <img class="card-img-top" data-src="" data-holder-rendered="true">
-            <div class="card-body"> Empresa: Eurofarma Unidade Itapevi (Março de 2018 - janeiro de 2019)
-              <p style="padding-top: 30px;" class="card-text"> Estágio em engenharia industrial com foco em
-                lançamento de novos produtos.</p>
-
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <a href="tab-exp.html"> <button type="button" class="btn btn-sm btn-outline-success">Visualizar
-                      Atividades Desempenhadas</button></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </div>
-
-
-
-  
-  <!--Sobre mim-->
-  <section class="jumbotron text-center " id="Sobre-mim">
-    <div class="container borda text padding-left">
-
-      <h3 class="jumbotron-heading containerII">Sobre mim</h3>
-      <h4  class="containerII"> Porque escolher engenharia? 🤔</h4>
-      <p class="lead  text-left containerII">
-
-
-
-        Eu sempre fui muito curioso e sempre tive habilidades motoras muito desenvolvidas. Com 1 ano e meio de idade eu
-        já andava, subia nos móveis e atormentava minha mãe. Acredito que essa característica foi um dos fatores que me
-        fazia ser muito interessado em movimentos como rotação, aceleração e velocidade que eu observava nos carros da
-        fórmula 1. Sempre fui apaixonado por automóveis, eu podia passar o dia inteiro brincando com carrinhos de
-        brinquedo.
-        Desde criança andava de bicicleta, fazia escalada, andava de patins, cantava, dançava, nadava e inclusive falava
-        sozinho inventando palavras, provavelmente palavras similares as que eu ouvia em outras línguas, como inglês,
-        alemão, italiano e francês. Desde pequeno viajava por diversos países e isso faz com que hoje eu me sinta muito
-        confortável diante de pessoas de culturas diferentes.Durante minha formação em engenharia de produção pude
-        perceber duas características minhas que acredito serem valiosas para qualquer área de atuação, que são: visão
-        sistêmica e resiliência. Tenho facilidade em enxergar processos como um todo, identificando etapas, pontos
-        críticos, detalhes, necessidades e possíveis resultados. Também me considero um aterno aprendiz, tenho humildade
-        para admitir que sempre terei o que apreender, portanto não me frustro por saber que preciso obter um
-        conhecimento novo, utilizar novas ferramentas, ou até receber críticas.Inclusive estou voltando a estudar SQL,
-        Python, HTML, CSS, VBA, DAX, Machine Learning e pretendo apreender PHP, Java Script e Node JS. Sei que o futuro
-        está em programações lógicas de uma forma geral e estou comprometido a nunca parar de estudar.
-
-        Sou um indivíduo ético e de fácil convivência, me considero uma pessoa carismática, comunicativa, articulada,
-        flexível, criativa e sempre com vontade de apreender e resolver problemas. Lido muito bem com pessoas e valorizo
-        ambientes colaborativos onde o crescimento da equipe depende das conquistas e esforços de cada um. Acredito que
-        em ambientes onde há sinergia tudo flua melhor e de forma mais harmonica.
-      </p>
-
-      <h4 style="padding-top: 60px;padding-bottom: 60px;" class=""> Meus interesses </h4>
-
-      <p class="lead  text-left">
-        Tenho grande interesse nas área de projetos, planejamento estratégico e programação. Apesar de apresentar meus
-        interesses separadamente na forma dessas 3 "áreas", acredito que façam parte de uma única matriz, a visão de
-        negócio.
-        Acredito que a área de generalista seja minha vocação, apesar de ter muita admiração e respeito pelas áreas
-        técnicas.
-
-
-
-
-        Gosto de me informar sobre novas tecnologias, principalmente ligadas a energia mais limpa e renovável.
-
-        Busco adquirir experiência na área de projetos voltada a energia para me desenolver nesta área de atuação.
-      </p>
-
-      <h4 style="padding-top: 60px;padding-bottom: 60px;" class=""> Um pouco mais sobre mim </h4>
-      <p class="lead  text-left">
-        Nasci em 18/09/1994 na cidade de São Paulo, atualmente vivo com minha mãe e irmã mais nova. Meus pais são.
-
-      </p>
-      
-    </div>
-    <section>
-
-      <div class="container-fluid" id="Contato">
-
-        <h5 style="padding-top: 60px;" class="text-center ">A procura de oportunidades de emprego/ Looking for
-          job oportunities</h5>
-        <a href="mailto:matt.galfano@gmail.com">
-          <h7 style="margin-bottom: 0px;" class="text-center ">matt.galfano@gmail.com</h7>
-        </a>
-        <a href="tel: +55 11 9744454404">
-          <h7 style="padding-bottom: 60px;" class="text-center ">+55 11 97445-4404</h7>
-        </a>
-      </div>
-    </section>
-    <!--footer -->
-    <footer style="padding-top: 60px;" class="text-center textofooter">
-      <p class="textobranco">copyright 2020</p>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
